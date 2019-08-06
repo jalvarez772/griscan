@@ -1,0 +1,21 @@
+h1{
+  font-family: 'Lobster', cursive;
+  color: green;
+  
+}
+
+
+
+.side-nav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: green;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
