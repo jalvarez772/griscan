@@ -19,3 +19,34 @@ h1{
   padding-top: 60px;
 }
 
+.side-nav a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: yellow;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover {
+  color: #fff;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 1s;
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media(min-width:568px){
+  .open-slide{display: none}
+}
